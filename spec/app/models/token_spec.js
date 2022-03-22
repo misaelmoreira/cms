@@ -40,7 +40,7 @@ describe("O modelo de token", function(){
                         expect(retornoValidar.tokenValidado).toBe(false);
                         done();
                     });  
-                })
+                });
             });            
         });
     }); 
